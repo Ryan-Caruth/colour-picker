@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #e74c3c;
+}
+
+.colour {
+    font-size: 30px;
+}
+
+hr {
+    width: 40%;
+    margin: 0px;
+    color: black;
+    background-color: black;
+    border-width: 0px;
+    height: 2px;
+}
+
+button {
+    cursor: pointer;
+    position: relative; 
+    margin-top: 20%;
+    left: 42%;
+    font-size: 30px;
+    outline: none;
+    background-color: black;
+    color: #fff;
+    border: none;
+    border-radius: 15px;
+}
+
+button:hover {
+    background-color: #3e8e41;
+    transform: translateY(4px);
+}
